@@ -1,0 +1,25 @@
+.rcw {
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-warning-bg);
+  border: 1px solid #FDE68A;
+  border-radius: var(--radius-md);
+  margin-top: var(--space-3);
+}
+
+.rcw-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
+}
+.rcw-icon { color: var(--color-warning); }
+.rcw-title { font-size: var(--font-size-sm); font-weight: 600; color: #92400E; }
+.rcw-reason { font-size: var(--font-size-sm); color: #78350F; margin-bottom: var(--space-3); }
+
+.rcw-actions {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.rcw-anyway-btn { color: var(--color-text-muted); font-size: var(--font-size-xs); }

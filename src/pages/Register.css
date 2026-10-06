@@ -1,0 +1,37 @@
+.register-brand {
+  background: linear-gradient(145deg, #2D3A8C 0%, #4F6EF7 70%, #7A93F9 100%);
+}
+
+.register-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.reg-at {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.pass-requirements {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: var(--space-2);
+}
+
+.pass-req {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+.pass-req svg { color: var(--color-border); }
+.pass-req.met { color: var(--color-success); }
+.pass-req.met svg { color: var(--color-success); }
+
+@media (max-width: 480px) {
+  .register-grid { grid-template-columns: 1fr; }
+}
